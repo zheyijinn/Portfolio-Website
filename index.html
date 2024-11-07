@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kevin John Tulod">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Kevin John Tulod</title>
+</head>
+
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>K</span>evin <span>J</span>ohn<span> T</span>ulod</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <li><a href="#" class="resume" id="resumeLink">Resume</a>
+              <div id="resumeModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <iframe src="img/resume.pdf" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+            <script src="app.js"></script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hi there! <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Kevin John <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div data-aos="zoom-in" data-aos-duration="1000" >
+      <div class="service-top">
+        <h1 class="section-title">WHAT <span>I </span>OFFER.</h1>
+        <p>I am a <span><strong>UI/UX designer & full-stack web developer </strong></span>. I create user-friendly and visually appealing interfaces,
+          and I also build strong and scalable web applications. I combine design and technology to make sure each
+          project
+          looks great and works well. With attention to detail and a love for innovation, I am committed to delivering
+          high-quality solutions that meet and exceed client expectations.</p>
+      </div>
+    </div>
+      <div data-aos="fade-right" data-aos-duration="1000">
+      <div class="service-bottom">
+
+        <div class="service-item">
+          <div class="icon" style="font-size: 80px;">
+            <i class='bx bxl-codepen bx-flashing' style='color:#f6d448'></i>
+          </div>
+          <h2>UI/UX Design</h2>
+          <p>Utilizing Figma, I create wireframes, mockups, and interactive prototypes to visualize design concepts and test user flows. 
+            I conduct user research and usability testing to gather feedback and iterate on designs, ensuring a seamless and visually appealing user experience</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon" style="font-size: 80px;">
+            <i class='bx bx-code-alt bx-tada' style='color:#f6d448' ></i>
+          </div>
+          <h2>Web Development</h2>
+          <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers 
+            and back-end developers to ensure the seamless integration of UI components and functionality.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon" style="font-size: 80px;">
+            <i class='bx bx-minus-front bx-fade-left' style='color:#f6d448' ></i>
+          </div>
+          <h2>Front-end Development</h2>
+          <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers and back-end 
+            developers to ensure the seamless integration of UI components and functionality.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon" style="font-size: 80px;">
+            <i class='bx bx-minus-back bx-fade-right' style='color:#f6d448' ></i>
+          </div>
+          <h2>Back-end Development</h2>
+          <p>As a freelance Full-stack Web Developer, I handle small to medium projects, providing comprehensive web development solutions. I use Bootstrap, Tailwind CSS, HTML, and JavaScript to build 
+            responsive interfaces, and PHP with MySQL for server-side logic and databases. </p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div data-aos="fade-up"
+     data-aos-duration="1000">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Crust & Rolls Sushi Ordering Website</h1>
+            <h2>Lead Developer</h2>
+            <p>Developed a web-based sushi ordering system using PHP, HTML, CSS, Bootstrap, MySQL, and JavaScript, featuring an 
+              administrator Content Management System (CMS) for managing orders, customers, and menu items.</p>
+          </div>
+          <div class="project-img">
+            <a href="http://crustandrolls.great-site.net/usersushi.php?i=1">
+              <img src="./img/crustandrolls.png" alt="img">
+              <div class="overlay">Visit website</div>
+            </a>
+          </div>
+        </div> </div>
+        <br>  <br>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Sta. Lucia Senior High School LMS (SLSHS LMS)</h1>
+            <h2>Lead Developer</h2>
+            <p>Designed and developed a user-friendly website to support online learning that fits senior high school curriculum grading system. 
+              Programming language utilized for this project is PHP, mixed with HTML, CSS, Bootstrap, MySQL, and JavaScript.</p>
+          </div>
+          <div class="project-img">
+              <img src="./img/slshslms.png" alt="img">
+          </div>
+        </div> </div>
+        <br> <br>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Vehicle Repair and Maintenance Management System </h1>
+            <h2>Co-developer</h2>
+            <p>Co-developed a website using PHP, HTML, CSS, JavaScript, and MySQL that helps clients communicate and request services from a vehicle 
+              repair shop, and enables admins to manage requests and tasks. Handled the back-end functionalities of the system.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/vrrms.png" alt="img">
+          </div>
+        </div> </div>
+        <br> <br>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>UIP Inc. Main Website (Redesign)</h1>
+            <h2>Team Leader</h2>
+            <p>Designed the main website using Figma for mockups and final design. I also developed the front-end using Tailwind 
+              CSS to ensure a responsive and visually appealing user interface.</p>
+          </div>
+          <div class="project-img">
+            <a href="https://www.figma.com/design/8d0e1cxU2Kpa1CY0jsygrM/Untitled?node-id=0-1&t=Ks1IU8irK7qdJoVh-0">
+              <img src="./img/uip.png" alt="img">
+              <div class="overlay">Visit Design</div>
+            </a>
+          </div>
+    
+        </div> </div>
+        <br> <br>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>UIP Attendance Tracker (Redesign)</h1>
+            <h2>Team Leader</h2>
+            <p>As part of redesigning UIP Inc.'s Attendance Tracker, I utilized Figma to create mockups and finalize the design. 
+              I co-developed the front-end using Tailwind CSS to ensure a responsive and visually appealing user interface. </p>
+          </div>
+          <div class="project-img">
+            <a href="https://www.figma.com/design/8d0e1cxU2Kpa1CY0jsygrM/Untitled?node-id=0-1&t=Ks1IU8irK7qdJoVh-0">
+              <img src="./img/uipat.png" alt="img">
+              <div class="overlay">Visit Design</div>
+            </a>
+          </div>
+        </div> </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div data-aos="fade-up"
+    data-aos-duration="1000">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/picture1.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>UI/UX Designer & Full-stack Web Developer</h2>
+        <p>Enthusiastic student with a strong interest in programming and software development, and UI/UX design. Eager to learn and expand my 
+          skills in various programming languages, frameworks, and technologies. Proven ability to tackle coding challenges and work on personal projects, 
+          showcasing dedication and determination to excel in the field. Actively seeking opportunities to contribute to real-world projects and gain hands-on 
+          experience. Committed to becoming a proficient and successful programmer and Web Developer.</p>
+          <a href="img/resume.pdf" class="cta" id="resumeLink" download>Download Resume</a>
+          <script src="app.js"></script>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon" style="font-size: 80px; color:#f6d448;"><i class='bx bx-phone bx-tada' ></i></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>09395480070</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon" style="font-size: 80px; color:#f6d448;"><i class='bx bx-envelope bx-tada' ></i></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>kevinjohntulod.developer@gmail.com</h2>
+          </div>
+        </div>
+      </div>
+    </div> </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>K</span>evin <span>J</span>ohn <span>T</span>ulod</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/kevinjohntulod/"><img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Kevin John Tulod. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
