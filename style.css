@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #f6d448;
+	color: #D4A7A1;
 }
 
 .cta {
@@ -50,7 +50,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid #f6d448;
+	border: 2px solid #D4A7A1;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -60,7 +60,7 @@ p {
 }
 .cta:hover {
 	color: black;
-	background-color: #f6d448;
+	background-color: #D4A7A1;
 	box-shadow: #010001;
 }
 .brand h1 {
@@ -69,7 +69,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: #f6d448;
+	color: #D4A7A1;
 }
 
 /* Header section */
@@ -141,7 +141,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: #f6d448;
+	color: #D4A7A1;
 }
 #header .hamburger {
 	height: 60px;
@@ -249,7 +249,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: #f6d448;
+	background-color: #D4A7A1;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -389,7 +389,7 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
-	color: #f6d448;
+	color: #D4A7A1;
 }
 
 #projects .project-info p {
@@ -454,7 +454,7 @@ p {
 	/* #101414 */
 }
 #about .about h2 {
-	color:#f6d448;
+	color:#D4A7A1;
 }
 #about .about {
 	flex-direction: column-reverse;
@@ -502,7 +502,7 @@ color: black;
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid #f6d448;
+	border: 7px solid #D4A7A1;
 	z-index: -1;
 }
 /* End About Section */
@@ -626,7 +626,7 @@ color: black;
 }
 @keyframes text_reveal_name {
 	100% {
-		color: #f6d448;
+		color: #D4A7A1;
 		font-weight: 500;
 	}
 }
@@ -690,7 +690,7 @@ color: black;
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #f6d448;
+		border: 10px solid #D4A7A1;
 	}
 	#about .col-right {
 		text-align: left;
@@ -835,11 +835,11 @@ a {
 	padding: 10px;
 	display: block;
 	border: 1px solid;
-	border-color: #f6d448;
+	border-color: #D4A7A1;
 }
 
 #header .nav-list ul li:hover .resume {
 	color: black;
-	background-color: #f6d448;
+	background-color: #D4A7A1;
 	transition: background-color 0.3s ease, color 0.3s ease; /* Slow transition effect */
 }
