@@ -9,6 +9,7 @@
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Kevin John Tulod</title>
 </head>
@@ -37,13 +38,7 @@
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="#" class="resume" id="resumeLink">Resume</a>
-              <div id="resumeModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <iframe src="img/kevin-resume.pdf" width="100%" height="500px"></iframe>
-                </div>
-            </div>
+            <li><a href="img/kevin-resume.pdf" target="_blank"  class="resume" >Resume</a>
             <script src="app.js"></script>
             </li>
           </ul>
@@ -58,74 +53,75 @@
   <section id="hero">
     <div class="hero container">
       <div>
-        <h1>Hi there! <span></span></h1>
-        <h1>My Name is <span></span></h1>
-        <h1>Kevin John <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <h3>Hi there! <span></span></h3>
+        <h3>I am Kevin John, <span></span></h3>
+        <h3>an Aspiring Web Developer <span></span></h3>
+        <div class="icon" style="font-size: 40px; color:#D4A7A1;">
+          <p style="font-size: 40px;">
+            <a href="https://github.com/zheyijinn" class="icon-link">
+              <i class='bx bxl-github icons'></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/kevinjohntulod/" class="icon-link">
+              <i class='bx bxl-linkedin-square icons'></i>
+            </a>
+          </p>
+          <a href="#projects" type="button" class="cta">Projects</a>
+      </div>
+    
+   
+    </div>
+  </section>
+  
+  <!-- End Hero Section  -->
+
+  <section id="techstack">
+    <div class="techstack-top" data-aos="zoom-in" data-aos-duration="1000">
+      <h1 class="section-title">TECH <span>STACK</span></h1>
+    </div>
+    <div class="techstack">
+      <div class="techstack-grid" data-aos="fade-right" data-aos-duration="1000">
+        <!-- Web Development Column -->
+        <div class="stack-column">
+          <h2 class="section-title">Web Development</h2>
+          <div class="icon-container">
+            <img src="img/php.png" style="width:8rem;" alt="PHP">
+            <img src="img/html5.png" style="width:7rem;" alt="HTML5">
+            <img src="img/css3.png" style="width:6.5rem;" alt="CSS3">
+            <img src="img/mysql.png" style="width:8rem;" alt="MySQL">
+            <img src="img/javascript.png" style="width:6rem;" alt="JavaScript">
+          </div>
+        </div>
+        
+      <!-- Frameworks Column -->
+      <div class="stack-column">
+        <h2>Frameworks</h2>
+        <div class="icon-container">
+          <img src="img/laravel.png" style="width:16rem;" alt="Laravel">
+          <img src="img/bootstrap.png" style="width:6rem;" alt="Bootstrap">
+          <img src="img/tailwindcss.png" style="width:16rem;" alt="Tailwind CSS">
+        </div>
+      </div>
+
+        <!-- UI/UX Column -->
+        <div class="stack-column">
+          <h2>UI/UX</h2>
+          <div class="icon-container">
+            <img src="img/figma.png" style="width:12rem;" alt="Figma">
+          </div>
+        </div>
+  
+    
       </div>
     </div>
   </section>
-  <!-- End Hero Section  -->
-
-    <!-- Tech Stack Section -->
-    <!-- <section id="services">
-      <div class="services container">
-        <div data-aos="zoom-in" data-aos-duration="1000" >
-        <div class="service-top">
-          <h1 class="section-title">TECH <span>STACK</span></h1>
-        </div>
-      </div>
-        <div data-aos="fade-right" data-aos-duration="1000">
-        <div class="service-bottom">
   
-          <div class="service-item">
-            <div class="icon" >
-              <img src="img/php.png" alt="" style="width:auto;">
-            </div>
-            <h2>UI/UX Design</h2>
-            <p>Utilizing Figma, I create wireframes, mockups, and interactive prototypes to visualize design concepts and test user flows. 
-              I conduct user research and usability testing to gather feedback and iterate on designs, ensuring a seamless and visually appealing user experience</p>
-          </div>
-  
-          <div class="service-item">
-            <div class="icon" style="font-size: 80px;">
-              <i class='bx bx-code-alt bx-tada' style='color:#D4A7A1' ></i>
-            </div>
-            <h2>Web Development</h2>
-            <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers 
-              and back-end developers to ensure the seamless integration of UI components and functionality.</p>
-          </div>
-  
-          <div class="service-item">
-            <div class="icon" style="font-size: 80px;">
-              <i class='bx bx-minus-front bx-fade-left' style='color:#D4A7A1' ></i>
-            </div>
-            <h2>Front-end Development</h2>
-            <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers and back-end 
-              developers to ensure the seamless integration of UI components and functionality.</p>
-          </div>
-  
-          <div class="service-item">
-            <div class="icon" style="font-size: 80px;">
-              <i class='bx bx-minus-back bx-fade-right' style='color:#D4A7A1' ></i>
-            </div>
-            <h2>Back-end Development</h2>
-            <p>As a freelance Full-stack Web Developer, I handle small to medium projects, providing comprehensive web development solutions. I use Bootstrap, Tailwind CSS, HTML, and JavaScript to build 
-              responsive interfaces, and PHP with MySQL for server-side logic and databases. </p>
-          </div>
-  
-        </div>
-      </div>
-      </div>
-    </section> -->
-    <!-- End Service Section -->
-
   <!-- Service Section -->
   <section id="services">
     <div class="services container">
       <div data-aos="zoom-in" data-aos-duration="1000" >
       <div class="service-top">
         <h1 class="section-title">WHAT <span>I </span>OFFER.</h1>
+     
         <p>I am a <span><strong>UI/UX designer & full-stack web developer </strong></span>. I create user-friendly and visually appealing interfaces,
           and I also build strong and scalable web applications. I combine design and technology to make sure each
           project
@@ -141,35 +137,34 @@
             <i class='bx bxl-codepen bx-flashing' style='color:#D4A7A1'></i>
           </div>
           <h2>UI/UX Design</h2>
-          <p>Utilizing Figma, I create wireframes, mockups, and interactive prototypes to visualize design concepts and test user flows. 
-            I conduct user research and usability testing to gather feedback and iterate on designs, ensuring a seamless and visually appealing user experience</p>
+          <p>Using Figma, I create detailed wireframes, mockups, and interactive prototypes to plan and test designs. I also gather valuable feedback through user research and testing to continuously improve the design and ensure a smooth user experience.</p>
+
         </div>
 
         <div class="service-item">
           <div class="icon" style="font-size: 80px;">
-            <i class='bx bx-code-alt bx-tada' style='color:#D4A7A1' ></i>
+            <i class='bx bx-code-alt bx-tada' style='color:#D4A7A1'></i>
           </div>
           <h2>Web Development</h2>
-          <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers 
-            and back-end developers to ensure the seamless integration of UI components and functionality.</p>
+          <p>I specialize in creating websites using tools like PHP, Laravel, Bootstrap, Tailwind CSS, HTML, and JavaScript. My goal is to craft smooth, responsive designs while working closely with designers and back-end developers to bring everything together seamlessly.</p>
         </div>
-
+        
         <div class="service-item">
           <div class="icon" style="font-size: 80px;">
-            <i class='bx bx-minus-front bx-fade-left' style='color:#D4A7A1' ></i>
+            <i class='bx bx-minus-front bx-fade-left' style='color:#D4A7A1'></i>
           </div>
           <h2>Front-end Development</h2>
-          <p>I use technologies such as Bootstrap, Tailwind CSS, HTML, and JavaScript to create responsive and visually appealing user interfaces. I work closely with designers and back-end 
-            developers to ensure the seamless integration of UI components and functionality.</p>
+          <p>With a focus on the user experience, I use technologies like Bootstrap, Tailwind CSS, HTML, and JavaScript to build visually appealing and interactive interfaces. I ensure everything works smoothly with the back-end and aligns with the design vision.</p>
         </div>
+        
 
         <div class="service-item">
           <div class="icon" style="font-size: 80px;">
             <i class='bx bx-minus-back bx-fade-right' style='color:#D4A7A1' ></i>
           </div>
           <h2>Back-end Development</h2>
-          <p>As a freelance Full-stack Web Developer, I handle small to medium projects, providing comprehensive web development solutions. I use Bootstrap, Tailwind CSS, HTML, and JavaScript to build 
-            responsive interfaces, and PHP with MySQL for server-side logic and databases. </p>
+          <p>As a freelance Full-stack Web Developer, I specialize in small to medium projects, using PHP, MySQL, and Laravel to create robust back-end systems and manage databases, ensuring smooth functionality and performance.</p>
+
         </div>
 
       </div>
@@ -282,12 +277,24 @@
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>UI/UX Designer & Full-stack Web Developer</h2>
-        <p>Enthusiastic student with a strong interest in programming and software development, and UI/UX design. Eager to learn and expand my 
-          skills in various programming languages, frameworks, and technologies. Proven ability to tackle coding challenges and work on personal projects, 
-          showcasing dedication and determination to excel in the field. Actively seeking opportunities to contribute to real-world projects and gain hands-on 
-          experience. Committed to becoming a proficient and successful programmer and Web Developer.</p>
-          <a href="img/kevin-resume.pdf" class="cta" id="resumeLink" download>Download Resume</a>
-          <script src="app.js"></script>
+        <p><p>I'm Kevin John Tulod, a BSIT graduate from the Polytechnic University of the Philippines - Manila. As an aspiring web developer with experience as a freelance web developer, I've honed my skills in building impactful websites. I graduated Magna Cum Laude and have consistently been a President's Lister throughout my academic journey.</p>
+      </p>
+          <a href="#" class="cta" onclick="downloadResume()">Download Resume</a>
+
+          <script>
+          function downloadResume() {
+              const link = document.createElement('a');
+              link.href = 'img/kevin-resume.pdf';
+              link.download = 'Kevin_John_Resume.pdf';
+              
+              // Required for Firefox
+              link.target = '_blank';
+              
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+          }
+          </script>
       </div>
     </div>
   </section>
@@ -297,26 +304,30 @@
   <section id="contact">
     <div class="contact container">
       <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
+        <h1 class="section-title">Contact <span>Info</span></h1>
+        <p>I'm always open to discussing new projects, collaborations, or any questions you might have. Feel free to reach out!</p>
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="icon" style="font-size: 80px; color:#D4A7A1;"><i class='bx bx-phone bx-tada' ></i></div>
+          <div class="icon" style="font-size: 80px; color:#D4A7A1;"><i class='bx bx-phone bx-tada'></i></div>
           <div class="contact-info">
             <h1>Phone</h1>
             <h2>09395480070</h2>
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon" style="font-size: 80px; color:#D4A7A1;"><i class='bx bx-envelope bx-tada' ></i></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>kevinjohntulod.developer@gmail.com</h2>
-          </div>
+          <div class="icon" style="font-size: 80px; color:#D4A7A1;"><i class='bx bx-envelope bx-tada'></i></div>
+          <a href="mailto:kevinjohntulod.developer@gmail.com" style="text-decoration: none;">
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>kevinjohntulod.developer@gmail.com</h2>
+            </div>
+          </a>
         </div>
       </div>
-    </div> </div>
+    </div>
   </section>
+  
   <!-- End Contact Section -->
 
   <!-- Footer -->
@@ -327,12 +338,16 @@
       </div>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.linkedin.com/in/kevinjohntulod/"><img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" /></a>
+          <a href="https://www.linkedin.com/in/kevinjohntulod/" class="icon-link">
+            <i class='bx bxl-linkedin-square icons'></i>
+          </a>
         </div>
       </div>
       <p>Copyright © 2024 Kevin John Tulod. All rights reserved</p>
     </div>
   </section>
+
+  <div id="lightEffect"></div>
   <!-- End Footer -->
   <script src="./app.js"></script>
 </body>

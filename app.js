@@ -49,3 +49,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 });
 
+
+document.addEventListener('mousemove', function (e) {
+    const light = document.getElementById('lightEffect');
+    const mouseX = e.clientX;
+    const mouseY = e.clientY;
+  
+    // Set the light position to follow the mouse
+    light.style.left = mouseX + 'px';
+    light.style.top = mouseY + 'px';
+  
+    // Optionally, you can change the size based on mouse movement
+    const size = Math.random() * 50 + 50; // Random size between 50px and 100px
+    light.style.width = size + 'px';
+    light.style.height = size + 'px';
+  
+    // Add a fade-out effect (optional)
+    light.style.opacity = 1;
+  
+    // Add a fade-out effect
+    setTimeout(() => {
+      light.style.opacity = 0.5;
+    }, 100);
+  });
